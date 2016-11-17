@@ -29,7 +29,7 @@ header {
   position: fixed;
   margin: 0 auto;
   width: 900px;
-  color: #222222;
+  color: #888888;
   text-align: center; }
 
 .v-wrapper {
@@ -67,7 +67,7 @@ header {
 
 .v-text-highlight {
   font-weight: 600;
-  color: #ef8325; }
+  color: #222222; }
 
 p {
   font-size: 20px; }

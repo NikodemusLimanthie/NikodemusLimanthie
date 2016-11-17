@@ -7,6 +7,7 @@ $bgcolor-primary: #FFFFFF;
 $bgcolor-header: #93add8;
 $bgcolor-material: #E0E0E0;
 $text-color: #222222;
+$text-color-dim: #888888;
 $container-width: 900px;
 $material-width: 750px;
 
@@ -45,7 +46,7 @@ header {
     position: fixed;
     margin: 0 auto;
     width: $container-width;
-    color: $text-color;
+    color: $text-color-dim;
     text-align: center;
 }
 
@@ -90,7 +91,8 @@ header {
 
 .v-text-highlight {
     font-weight: 600;
-    color: #ef8325;
+    // color: #ef8325;
+    color: $text-color;
 }
 
 p {
